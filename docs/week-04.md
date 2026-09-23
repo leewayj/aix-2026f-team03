@@ -32,7 +32,7 @@ At least two normal paths + one failure path. If "How to check" is empty, it is 
 | AC-1 | 정상 Normal | WHEN 학생이 좌석을 예약하면  THE 시스템은  SHALL 예약된 좌석에 LED를 점등한다. | 좌석 예약을 해본 뒤 해당 좌석에 LED가 점등되는 지 확인 |
 | AC-2 | 정상 Normal | WHEN 학생이 예약한 좌석의 시간이 끝나면  THE 시스템은  SHALL 예약된 좌석의 LED를 소등한다. | 좌석에 예약된 시간이 끝났을 때 LED가 소등되는 지 확인 |
 | AC-3 | 실패 Failure | IF 예약 시간이 종료 후 5분 이상 사용자가 계속 좌석을 이용하고 있으면 THEN  THE 시스템은 SHALL 예약 종료 알림등을 점멸하여 좌석을 비워야 함을 알린다. | 5분 이상 사용자가 계속 좌석을 이용 시 예약 종료 알림등이 점멸되는지 확인 |
-| AC-4 | 실패 Failure | IF 예약자가 1시간 이상 좌석을 사용하지 않으면  THEN  THE 시스템은 SHALL 예약 정책에 따라 해당 예약을 취소하고 좌석을 이용 가능 상태로 변경한다. | 1시간 이상 좌석을 이용하지 않는 것을 확인할 수 있는지 확인 |
+| AC-4 | 실패 Failure | IF 예약자가 1시간 이상 좌석을 사용하지 않으면  THEN  THE 시스템은 SHALL 예약 정책에 따라 해당 예약을 취소하고 좌석을 이용 가능 상태로 변경한다. | 1시간 이상 좌석을 이용하지 않는 것을 인지할 수 있는지 확인 |
 
 > 확인할 동작이 더 있으면 AC-4부터 행을 추가해 쓰십시오.
 > If there are more behaviors to check, add rows from AC-4.
