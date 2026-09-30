@@ -83,8 +83,7 @@ graph LR
 
 | Won't 항목 Item | 포기한 이유 Why |
 |---|---|
-|  |  |
-|  |  |
+| 앱 개발 | 학교 앱에 추가되는 기능 |
 
 ### 실행 가능성 확인 / Feasibility check
 
