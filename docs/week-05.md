@@ -26,10 +26,12 @@
 
 | # | 태스크 Task | 완료 조건 Done when | 선행 태스크 Depends on | 담당 Owner |
 |---|---|---|---|---|
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+|  | 데이터 구조 설계 | 좌석, 예약 시간, 이용 상태 등을 저장할 데이터 구조가 정의 되있을 때 | 없음 |  |
+|  | 좌석 예약 및 상태 관리 | 예약 정보에 따라 좌석의 이용 상태를 확인하고 변경할 수 있을 때 | Task 1 |  |
+|  | LED | 좌석 이용 상태에 따라 LED가 점등/소등될 때 | Task 2 |  |
+|  | 화면 | 사용자가 좌석의 예약 및 이용 상태를 화면에서 확인할 수 있을 때 | Task 2 |  |
+|  | AI | 사용자의 질문에 좌석 데이터를 기반으로 이용 정보를 안내할 수 있을 때 | Task 2 |  |
+|  | 시스템 통합 및 테스트 | 예약 관리, LED, 화면, AI 기능이 연동되어 정상적으로 동작할 때 | Task 3,4,5 |  |
 
 ### 의존 관계 그래프 / Dependency graph (DAG)
 
@@ -53,7 +55,7 @@ graph LR
 - 지금 착수 가능 (진입 차수 0) / Can start now (in-degree 0): 
 - 작업 순서 (위상정렬) / Work order (topological sort): 
 - 사이클이 있었다면 어떻게 풀었는가 / If there was a cycle, how did you fix it?: 
-
+<img width="1828" height="860" alt="image" src="https://github.com/user-attachments/assets/2c109598-842c-4175-ad90-bf0e189d30ba" />
 ---
 
 ## ③ 범위 결정 / Scope
