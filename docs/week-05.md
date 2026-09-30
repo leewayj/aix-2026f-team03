@@ -2,8 +2,8 @@
 
 **1-page 기획서 / One-page plan**
 
-- 작성일 / Date: 
-- 참여자 / Present: 
+- 작성일 / Date: 2026.09.30
+- 참여자 / Present: 정윤지, 김은총, 박강민, 이진호
 
 ---
 
