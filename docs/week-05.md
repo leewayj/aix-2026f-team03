@@ -90,8 +90,10 @@ graph LR
 
 - 특수 장비·유료 API·실제 개인정보가 필요한가? 필요하다면 대안은?
   *Does it need special hardware, paid APIs or real personal data? If so, what is the alternative?*
+  --> 아두이노 센서 및 LED활용 예정
 - 15주차에 발표장에서 시연할 수 있는 형태인가?
   *Can it be demonstrated live in Week 15?*
+  --> 가능함
 
 ---
 
@@ -100,8 +102,8 @@ graph LR
 예 / Example: 과제 ID를 입력하면 → LMS에서 제출 기록을 받아 와서 → 화면에 제출 인원 숫자 하나가 뜬다
 
 > [무엇을 입력하면] → [무엇을 처리해서] → [화면에 무엇이 나온다]
-> 
-
+> 가상 예약 데이터 생성 → 예약 시작 → 좌석을 사용 중 상태로 변경 → LED 점등 → 예약 시간 종료 → 좌석을 이용 가능 상태로 변경 → LED 소등
+> [좌석 번호와 예약 시작·종료 시간을 입력하면] → [예약 정보를 바탕으로 좌석 이용 상태를 판단해서 LED 상태를 제어하고] → [화면에 좌석 이용 상태가 표시되고, 실제 LED가 점등 또는 소등된다.]
 ---
 
 > 수업 종료 시 커밋하세요 / Commit this at the end of class
