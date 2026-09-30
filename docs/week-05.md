@@ -63,8 +63,9 @@ graph LR
 ### Must — 없으면 성립 안 됨 / essential
 
 핵심 시나리오 1개가 끝까지 동작하는 데 필요한 것만 / *Only what the core scenario needs to work end-to-end*
+좌석의 예약 상태 확인, 센서를 통한 착석/비착석 감지
 
-- 핵심 시나리오 / Core scenario: 
+- 핵심 시나리오 / Core scenario: 예약된 좌석의 LED가 정상적으로 점등되고, 예약 종료 시 소등되는 기본 루프 구현
 
 
 
