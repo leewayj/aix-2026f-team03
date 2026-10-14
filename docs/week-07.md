@@ -8,8 +8,7 @@
 
 손그림 사진을 올리고 링크하십시오 / Upload a photo and link it.
 
-![architecture](<img width="2086" height="2312" alt="diagram" src="https://github.com/user-attachments/assets/faaa95db-964a-42de-aa0e-cd733f027951" />
-)
+(<img width="2086" height="2312" alt="diagram" src="https://github.com/user-attachments/assets/4f5356ee-b145-4f87-8c78-ac988a5f318b" />)
 
 | 계층 / Layer | 모듈·파일 / Modules | 의존하지 않는 것 / Does not depend on |
 |---|---|---|
