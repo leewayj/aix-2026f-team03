@@ -12,10 +12,10 @@
 수업 시작 후 10분 안에 확인합니다. 체크되지 않은 항목이 있으면 그것부터 해결하고 개발을 시작합니다.
 *Check within the first 10 minutes. Fix any unchecked item before you start coding.*
 
-- [ ] 초기 파일이 저장소에 올라와 있다 / Initial files are in the repository
-- [ ] 7주차 이슈가 GitHub에 등록되어 있고 담당자가 지정되어 있다 / Week 7 issues are on GitHub with owners
-- [ ] 팀원 모두 같은 환경에서 실행된다 / Everyone can run it in the same environment
-- [ ] 브랜치 규칙을 정했다 / Branch rule agreed — 
+- [x] 초기 파일이 저장소에 올라와 있다 / Initial files are in the repository
+- [x] 7주차 이슈가 GitHub에 등록되어 있고 담당자가 지정되어 있다 / Week 7 issues are on GitHub with owners
+- [x] 팀원 모두 같은 환경에서 실행된다 / Everyone can run it in the same environment
+- [x] 브랜치 규칙을 정했다 / Branch rule agreed — 
 
 ---
 
@@ -30,11 +30,11 @@
 
 | 주차 Week | 수업 일정 Class | 끝낼 이슈 # Issues to close | 담당 Owner |
 |---|---|---|---|
-| 9주차 | 개발 착수 |  |  |
-| 10주차 | 막힘 진단 · 데모 시나리오 초안 |  |  |
-| 11주차 | **MVP 완료 · 중간 데모** |  |  |
-| 12주차 | 핵심 경로 테스트 |  |  |
-| 13주차 | **배포 · 실행 패키지** |  |  |
+| 9주차 | 개발 착수(10/28~11/3) | 저장소 및 개발 환경 구성, 사용자 웹페이지 초기 구조, 예약 DB 설계, ESP32·LED 개발 준비, 관리자 페이지 초기 구조 | FE - 정윤지, 김은총, BE - 박강민, 이진호 |
+| 10주차 | 막힘 진단 · 데모 시나리오 초안(11/4~11/10) | 예약 DB 및 API 구현, ESP32·LED 기본 제어, 관리자 예약 관리 기능 | FE - 정윤지, 김은총, BE - 박강민, 이진호 |
+| 11주차 | **MVP 완료 · 중간 데모(11/11~11/17)** | 로드셀 착석 감지 및 전송, 좌석 상태 판별·LED 연동, 관리자 API 연동, 좌석 MVP 통합 및 시연 | FE - 정윤지, 김은총, BE - 박강민, 이진호 |
+| 12주차 | 핵심 경로 테스트(11/18~11/24) | 핵심 시나리오 테스트, 웹 예외 처리, 센서·LED 안정성 검증, 통합 오류 수정 | FE - 정윤지, 김은총, BE - 박강민, 이진호 |
+| 13주차 | **배포 · 실행 패키지(11/25~12/2)** | 실행 패키지 및 설치 문서, 발표자료·시연 영상, 최종 점검 및 제출 | FE - 정윤지, 김은총, BE - 박강민, 이진호 |
 
 > 일정이 맞지 않으면 기능을 줄입니다. 뺀 기능은 5주차 Won't 목록에 옮깁니다.
 > *If it doesn't fit, cut scope and move the feature to your Week 5 Won't list.*
